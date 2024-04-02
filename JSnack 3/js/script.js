@@ -1,6 +1,8 @@
 //Il software deve chiedere per 10 volte all'utente di inserire un numero.
 //Il programma stampa la somma di tutti i numeri inseriti.
 
+//Chiedo 10 numeri all'utente tramite prompt
+
 let fNum = parseInt(prompt("Dimmi il primo numero")); //number
 console.log(fNum);
 
@@ -31,6 +33,7 @@ console.log(nNum);
 let teNum = parseInt(prompt("Dimmi il decimo numero")); //number
 console.log(teNum);
 
+//Stampo la somma dei numeri chiesti all'utente
 
 const sum = fNum + sNum + tNum + foNum + fiNum + siNum + seNum + eNum + nNum + teNum;
 console.log(sum);
